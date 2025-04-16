@@ -1,24 +1,29 @@
-# Webview Website Opener
+# Traffic Light - Teacher Feedback Tool
 
-A simple VS Code extension that opens a predefined website (currently: https://pavelfalta.github.io/) in a webview panel within the editor.
+A VS Code extension that provides a quick way for students to give feedback to their teacher using the "Traffic Light" system (Red/Yellow/Green) within a dedicated webview.
+
+This extension integrates directly with the Traffic Light web application, allowing you to:
+
+*   Provide real-time, anonymous feedback during a class or session.
+*   Create feedback rooms.
+*   Share rooms easily using QR codes.
 
 ## Features
 
-*   Opens a website in a new editor tab (webview).
-*   Uses `ViewColumn.Beside` to prefer opening in a split view.
-*   Configurable website URL within the extension code.
+*   Opens the Traffic Light web application ([https://pavelfalta.github.io/](https://pavelfalta.github.io/)) in a convenient VS Code webview tab.
+*   Launches the webview in a split editor view for easy access alongside your code.
 
-## Usage
+## How to Use
 
-1.  Install the extension.
+1.  Install the extension from the VS Code Marketplace.
 2.  Open the Command Palette (`Ctrl+Shift+P` or `Cmd+Shift+P`).
-3.  Run the command: `Show Traffic Light`.
-4.  The website will open in a new webview tab.
+3.  Type and run the command: **`Show Traffic Light`**
+4.  The Traffic Light web application will open in a new webview tab, ready for you to join or create a feedback room.
 
 ## Contributing
 
-(Add details here if you accept contributions, e.g., link to your repository issues page)
+Issues and Pull Requests are welcome on the [GitHub repository](https://github.com/PavelFalta/TrafficLightVscode).
 
 ## License
 
-[Will be updated based on your choice, e.g., MIT] 
+[GPL-3.0-or-later](LICENSE) 

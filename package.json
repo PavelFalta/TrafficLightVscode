@@ -3,7 +3,7 @@
   "publisher": "PavelFalta",
   "displayName": "Traffic Light",
   "description": "Opens a traffic light website in a VS Code webview.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "license": "GPL-3.0-or-later",
   "repository": {
     "type": "git",

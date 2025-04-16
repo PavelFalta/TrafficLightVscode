@@ -48,25 +48,7 @@ function getWebviewContent(webview: vscode.Webview, url: string): string {
 			width: 100%;
 			height: 100%;
 		}
-		/* Modern Scrollbar Styling */
-		body::-webkit-scrollbar {
-			width: 8px; /* Adjust width as needed */
-		}
-		body::-webkit-scrollbar-track {
-			background: transparent; /* Or use a VS Code theme color like var(--vscode-editor-background) */
-		}
-		body::-webkit-scrollbar-thumb {
-			background-color: var(--vscode-scrollbarSlider-background);
-			border-radius: 4px; /* Rounded corners */
-			border: 2px solid transparent; /* Creates padding around thumb */
-			background-clip: padding-box;
-		}
-		body::-webkit-scrollbar-thumb:hover {
-			background-color: var(--vscode-scrollbarSlider-hoverBackground);
-		}
-		body::-webkit-scrollbar-thumb:active {
-			background-color: var(--vscode-scrollbarSlider-activeBackground);
-		}
+		/* Removed scrollbar styling for webview body */
 	</style>
 </head>
 <body>
